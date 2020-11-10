@@ -99,6 +99,16 @@ For other Java frameworks samples, refer to following repositories :
 
 Note: For other test frameworks supported by App-Automate refer our [Developer documentation](https://www.browserstack.com/docs/)
 
+## Very Important step: Run Parallel
+
+In order to test the apps of Android and IOS parallelly, run following commands after you change the files of run_parallel_test  directory refer to the steps of "Getting Started--->Speed up test execution with parallel testing".
+
+    ```sh
+    cd parallel
+    mvn clean
+    mvn test -P parallel
+    ```
+
 ## Getting Help
 
 If you are running into any issues or have any queries, please check [Browserstack Support page](https://www.browserstack.com/support/app-automate) or [get in touch with us](https://www.browserstack.com/contact?ref=help).

@@ -10,7 +10,7 @@ import io.appium.java_client.MobileBy;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
-public class ParallelTest extends BrowserStackJUnitTest {
+public class ParallelTestIOS extends BrowserStackJUnitTestIOS {
 
   @Test
   public void test() throws Exception {

@@ -115,7 +115,7 @@
                         <configuration>
                             <includes>
                                 <include>com/browserstack/run_parallel_test/ParallelTestAndroid.java</include>
-                                <include>com/browserstack/run_parallel_test/ParallelTest.java</include>
+                                <include>com/browserstack/run_parallel_test/ParallelTestIOS.java</include>
                             </includes>
                         </configuration>
                     </plugin>

@@ -21,8 +21,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized.Parameter;
 import org.junit.runners.Parameterized.Parameters;
 
-@RunWith(Parallelized.class)
-public class BrowserStackJUnitTest {
+@RunWith(Parallelizedios.class)
+public class BrowserStackJUnitTestIOS {
     public IOSDriver<IOSElement> driver;
     private static JSONObject config;
 
@@ -34,7 +34,7 @@ public class BrowserStackJUnitTest {
         List<Integer> taskIDs = new ArrayList<Integer>();
 
         JSONParser parser = new JSONParser();
-        config = (JSONObject) parser.parse(new FileReader("src/test/resources/com/browserstack/run_parallel_test/parallel.conf.json"));
+        config = (JSONObject) parser.parse(new FileReader("src/test/resources/com/browserstack/run_parallel_test/parallelios.conf.json"));
         int envs = ((JSONArray) config.get("environments")).size();
 
         for (int i = 0; i < envs; i++) {

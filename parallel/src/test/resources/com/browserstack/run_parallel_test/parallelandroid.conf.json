@@ -1,12 +1,12 @@
 {
     "server": "hub-cloud.browserstack.com",
     "username": "messi",
-    "access_key": "MU45j7omqyUsS3ERks",
+    "access_key": "MU45j",
    
     "capabilities": {
       "project": "First Junit4 Android Project",
-      "build": "HACN ES Junit4 Android Parallel",
-      "name": "HACN Android_parallel_test",
+      "build": "My Junit4 Android Parallel",
+      "name": "My Android_parallel_test",
       "browserstack.debug": true,
       "app": "bs://e1f6b070e2379f3d3253ead0487f5cb2bebd5b1d"
     },
