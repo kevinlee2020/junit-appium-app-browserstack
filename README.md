@@ -103,11 +103,11 @@ Note: For other test frameworks supported by App-Automate refer our [Developer d
 
 In order to test the apps of Android and IOS parallelly, run following commands after you change the files of run_parallel_test  directory refer to the steps of "Getting Started--->Speed up test execution with parallel testing".
 
-    ```sh
+    
     cd parallel
     mvn clean
     mvn test -P parallel
-    ```
+    
 
 ## Getting Help
 
