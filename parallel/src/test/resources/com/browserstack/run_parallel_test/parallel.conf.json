@@ -1,0 +1,22 @@
+{
+    "server": "hub-cloud.browserstack.com",
+    "username": "messi",
+    "access_key": "MU45j7omqyUsS3ERks",
+  
+    "capabilities": {
+      "project": "First Junit4 iOS Project",
+      "build": "HACN ES Junit4 iOS Parallel",
+      "name": "HACN ios_parallel_test",
+      "browserstack.debug": true,
+      "app": "bs://4cd8bd45344ab836e526ebf4d3ce241c3f29f0ff"
+    },
+  
+    "environments": [{
+      "device": "iPhone 11 Pro",
+      "os_version":  "13"
+    }, {
+      "device": "iPhone 11 Pro Max",
+      "os_version":  "13"
+    }]
+}
+
